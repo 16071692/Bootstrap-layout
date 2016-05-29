@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+</head>
+
+<body>
+    
+    <style>
+        
+        * {outline: #FFFFFF solid 1px;}
+        
+    .toprow {
+        background-color: rgb(63, 180, 255);
+        height: 50px;
+        outline: solid;
+        outline-color: white;
+    }
+    
+    .secondrow {
+    background-color: rgb(166, 216, 0);
+    height: 100px;
+    outline: solid;
+    outline-color: white;
+    }
+    
+    .thirdrow {
+        background-color: rgb(255, 174, 46);
+        height: 80px;
+        outline: solid;
+        outline-color: white;
+    }
+    
+    .bottomrow {
+        background-color: rgb(196, 196, 196);
+        height: 60px;
+        outline: solid;
+        outline-color: white;
+    }
+    
+    </style>
+
+<div class="container" grid-gutter-width="15px">
+    
+    <div class="row toprow">
+        <div class="col-xs-12 col-sm-12 col-md-6">1</div>
+        <div class="col-xs-12 col-sm-12 col-md-6">1</div>
+    </div>
+   
+   
+    <div class="row secondrow">
+        <div class="col-xs-12 col-sm-12 col-md-12">1</div>
+    </div>
+    
+    
+    <div class="row thirdrow">
+        <div class="col-xs-12 col-sm-12 col-md-4">1</div> 
+        <div class="col-xs-12 col-sm-12 col-md-4">1</div>
+        <div class="col-xs-12 col-sm-12 col-md-4">1</div> 
+    </div>
+
+    <div class="row bottomrow hidden-xs">
+        <div class="col-sm-6 col-md-3">1</div>
+        <div class="col-sm-6 col-md-3">1</div>
+        <div class="col-sm-6 col-md-3">1</div>
+        <div class="col-sm-6 col-md-3">1</div>
+    </div>
+    
+</div>
+
+</body>
+</html>
